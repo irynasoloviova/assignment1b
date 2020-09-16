@@ -1,3 +1,7 @@
+/*
+Heading "Mozilla is cool" configurations.
+Size, location on the web page etc.
+*/
 h1 {
   font-size: 60px;
   text-align: center;
@@ -7,12 +11,18 @@ h1 {
   text-shadow: 3px 3px 1px black;
 }
 
+/*
+Configurations for paragraph and links.
+*/
 p, li {
   font-size: 16px;    
   line-height: 2;
   letter-spacing: 1px;
 }
 
+/*
+Configurations for the body part, not the text in it.
+*/
 body {
   width: 600px;
   margin: 0 auto;
@@ -29,4 +39,4 @@ html {
 img {
   display: block;
   margin: 0 auto;
-}/* Put your CSS here. */
+}
